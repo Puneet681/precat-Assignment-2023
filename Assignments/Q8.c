@@ -10,4 +10,4 @@ int main()
     ch = getch();
     printf("ASCII value %c is %d",ch,ch);
     return 0;
-}
+} 

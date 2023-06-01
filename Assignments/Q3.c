@@ -11,4 +11,4 @@ int main()
     fer = ((9.0/5.0)*temp)+32;
     printf("\ntemplreture is %f farenhites",fer);
     return 0;
-}
+} 

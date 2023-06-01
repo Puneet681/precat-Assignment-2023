@@ -15,4 +15,4 @@ int main()
     printf("weeks are %f \n",week);
     printf("days are %f \n",days);
     return 0;
-}
+} 

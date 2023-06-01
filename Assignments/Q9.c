@@ -18,4 +18,4 @@ int main()
     printf("Sum is %f \n",sum);
     printf("avrage is %f \n",avg);
     return 0;
-}
+} 

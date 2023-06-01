@@ -18,4 +18,4 @@ int main()
     si = (p*n*r)/100;
     printf("\nthe total Simple intrest is = %f",si);
     return 0;
-}
+} 

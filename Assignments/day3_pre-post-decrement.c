@@ -17,7 +17,7 @@ int main()
 	
 	d=a--;	
 	printf("\n value of a and d after post_decrement a= %d d=%d",a,d);
-	
+	 
 	return 0;
 }
 

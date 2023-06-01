@@ -18,4 +18,4 @@ int main()
     printf("\narea is %f",area);
     printf("\nperimeter is %f",per);
     return 0;
-}
+} 
