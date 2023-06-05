@@ -1,13 +1,21 @@
 /*Q8
-to display the ASCII avlue of the chracter entered using getch()*/
+to swap two numbers*/
 
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
-    char ch;
-    printf("Enter a Character \n");
-    ch = getch();
-    printf("ASCII value %c is %d",ch,ch);
+    int a =0;
+    int b=0;
+    printf("enter the frist number\n");
+    scanf("%d",&a);
+    printf("enter the second number\n");
+    scanf("%d",&b);
+    printf("numbers befor swaping \n");
+    printf("a = %d \t b = %d \n",a,b);
+    int temp = a;
+    a=b;
+    b=temp;
+    printf("numbers after swaping \n");
+    printf("a = %d \t b = %d",a,b);
     return 0;
-} 
+}

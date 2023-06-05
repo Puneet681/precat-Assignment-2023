@@ -1,4 +1,4 @@
-// Q1
+// Q5 & Q17
 // to find the fctorial of a given number
 #include<stdio.h>
 

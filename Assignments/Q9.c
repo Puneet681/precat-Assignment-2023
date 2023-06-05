@@ -1,21 +1,17 @@
 /*Q9
-to find the avrage and the sum of the two no. given by the user*/
+to find the area and the parametre of the circle take the radius fro the user*/
 
 #include<stdio.h>
-
 int main()
 {
-    float n1 =0;
-    float n2 = 0;
-    float avg = 0;
-    float sum = 0;
-    printf("Enter frist no.\n");
-    scanf("%f",&n1);
-    printf("Enter second no.\n");
-    scanf("%f",&n2);
-    sum = n1+n2;
-    avg = (sum)/2;
-    printf("Sum is %f \n",sum);
-    printf("avrage is %f \n",avg);
+    float PI =  3.14;
+    int r = 0;
+    float area = 0;
+    float per = 0;
+    printf("Enter the  radius of the circle\n");
+    scanf("%d",&r);
+    printf("%f is the area of the circle with the radius of %d \n",(PI*r*r),r);
+    printf("%f is the permeter of the circle with the radius of %d \n",(2*PI*r),r);
+
     return 0;
-} 
+}
