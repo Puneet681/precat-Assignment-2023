@@ -5,7 +5,7 @@ to find if the given is number is prime or not*/
 int main()
 {
     int num=0;
-    printf("Enter number to wheck if its prime or not :\n");
+    printf("Enter number to check if its prime or not :\n");
     scanf("%d",&num);
 
     int sum = 0;
@@ -18,7 +18,7 @@ int main()
         }
             // printf("%d", i);
     }
-    printf("%d\n", sum);
+    // printf("%d\n", sum);
     if(sum == 0){
         printf("%d is prime number\n",num);
     }
